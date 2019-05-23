@@ -1,0 +1,23 @@
+{
+  "name": "honey_tool",
+  "version": "1.0.0",
+  "scripts": {
+    "dist": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.xxx.app",
+    "win": {
+      "target": "nsis",  //exe安装 
+    },
+    "extraFiles": [
+      {
+        "from":"app",  //filter从这个文件夹中选项,from会先匹配路径
+        "filter": ["core", "log", "python37"]
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-builder": "^20.40.2"
+  }
+}

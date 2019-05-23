@@ -1,0 +1,7 @@
+node_modules
+python37
+log
+\.vscode
+app/core/code/__pycache__
+app/core/temp
+app/core/upload

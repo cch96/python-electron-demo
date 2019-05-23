@@ -1,0 +1,15 @@
+{
+  "name": "honey_gui",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "python"
+  ],
+  "dependencies": {
+    "python-shell": "^1.0.7"
+  }
+}
